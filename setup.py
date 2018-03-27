@@ -11,9 +11,11 @@ with open('README.md') as f:
 
 setup(
     name='klab-autotime',
-    version=versioneer.get_version(),
-    cmdclass=versioneer.get_cmdclass(),
+    version='0.0.1',
+    # cmdclass=versioneer.get_cmdclass(),
     author='Yiran Tao',
+    author_email='yt2487@columbia.edu',
+    url='https://github.com/gerard0315/klab-autotime',
     description='Modified from Phillip Cloud project Time everything in IPython',
     long_description=long_description,
     license='Apache',

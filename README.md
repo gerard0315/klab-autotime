@@ -9,7 +9,7 @@ use pip
 
 ```python
 Installed autotime.py. To use it, type:
-  %load_ext autotime
+  %load_ext klab-autotime
 
 In [2]: %load_ext autotime
 time: 1433692.87 s
@@ -34,6 +34,6 @@ time: 156.05 ms
 ## Want to turn it off?
 
 ```python
-In [5]: %unload_ext autotime
+In [5]: %unload_ext klab-autotime
 ```
 # klab-autotime
