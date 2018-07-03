@@ -11,7 +11,7 @@ use pip
 Installed autotime.py. To use it, type:
   %load_ext klab-autotime
 
-In [2]: %load_ext autotime
+In [2]: %load_ext klab-autotime
 time: 1433692.87 s
 
 In [3]: x = 1
