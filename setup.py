@@ -2,8 +2,6 @@ from __future__ import absolute_import, division, print_function
 
 from setuptools import setup, find_packages
 
-import versioneer
-
 
 with open('README.md') as f:
     long_description = f.read()
@@ -11,7 +9,7 @@ with open('README.md') as f:
 
 setup(
     name='klab-autotime',
-    version='0.0.1',
+    version='0.0.5',
     # cmdclass=versioneer.get_cmdclass(),
     author='Yiran Tao',
     author_email='yt2487@columbia.edu',
